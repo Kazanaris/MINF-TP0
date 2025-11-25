@@ -5,6 +5,9 @@
 Sur cette image nous pouvons voir que la LED est allumée pendant 200ms.
 Nous pouvons voir cela car elle est à l'état bas pendant 200ms.
 
+
+
+
 ![Mesure periode LED](https://github.com/Kazanaris/MINF-TP0/blob/main/Mesure%20periode%20LED.png).
 
 
@@ -12,6 +15,9 @@ Nous pouvons voir cela car elle est à l'état bas pendant 200ms.
 Sur cette image, nous pouvons voir que la durée de la période est de 1,6s.
 nous avons vu que les LEDs restent allumées pendant 200ms et nous avons 8 LEDs.
 200ms * 8 = 1,6s => Le chenillard boucle comme il se doit sans latence.
+
+
+
 
 ![mesure 3s avant appel d'APP_TASK](https://github.com/Kazanaris/MINF-TP0/blob/main/mesure%203s%20avant%20appel%20d'APP_TASK.png).
 
