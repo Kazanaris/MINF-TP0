@@ -29,6 +29,6 @@ La raison pour laquelle CH1 met 200ms de plus a avoir un temps haut vient du fai
 est la première LED du chenillard a s'allumer.
 
 
-Pour le timer je l'ai configuré en mettant le prescaler sur 256 et pour le "compteur" du timer j'ai déterminé sa valeur avec le calcul suivant :
+Pour le timer je l'ai configuréen suivant la configuration du CdC et j'ai réglé le prescaler sur 256 et pour le "compteur" du timer j'ai déterminé sa valeur avec le calcul suivant :
 ((temps voulu * fréquence)/prescaler) - 1 = ((100ms * 80kHz)/256) - 1 = 31249
 
